@@ -6,9 +6,8 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
-      <div>Hello</div>
-      <Header name={"Job Board"} />
-      <Jobs number={9} />
+      <Header />
+      <Jobs />
       <Footer library={"React"} compagny={"Le Réacteur"} firstName={"Lalita"} />
     </>
   );

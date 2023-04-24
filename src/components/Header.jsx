@@ -1,4 +1,6 @@
-const Header = (props) => {
-  return <h1>{props.name}</h1>;
+import Title from "./Title";
+
+const Header = () => {
+  return <Title name={"The Job Board"} />;
 };
 export default Header;
