@@ -1,15 +1,22 @@
-h1 {
+header {
   background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+
+h1 {
   color: white;
-  text-align: center;
-  padding: 27px 0px 27px 0px;
   font-weight: 700;
   font-size: 40px;
 }
 
 footer {
-  text-align: center;
-  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
   background-color: #dddddd;
 }
 
@@ -24,6 +31,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .green {
@@ -33,6 +41,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .yellow {
@@ -42,6 +51,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .blue {
@@ -51,6 +61,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .pink {
@@ -60,6 +71,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-sizing: border-box;
 }
 
 h2 {

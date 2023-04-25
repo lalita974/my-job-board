@@ -1,6 +1,10 @@
 import Title from "./Title";
 
 const Header = () => {
-  return <Title name={"The Job Board"} />;
+  return (
+    <header>
+      <Title name={"The Job Board"} />;
+    </header>
+  );
 };
 export default Header;
